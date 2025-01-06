@@ -1,16 +1,17 @@
 package com.example.dicodingkotlindasar.classKotlin
 
-fun main() {
-    val dicodingCat = Animal()
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}" )
-    dicodingCat.eat()
-    dicodingCat.sleep()
+fun main(){
+    val hewan = Animal()
+    println("Nama: ${hewan.name}, Berat: ${hewan.weight}, Umur: ${hewan.age}, mamalia: ${hewan.isMamalia}" )
+    hewan.eat()
+    hewan.sleep()
 
-    // Mengubah objek dari class dicodingCat
-    dicodingCat.name = "Kucing Oren"
-    dicodingCat.weight = 6.0
-    dicodingCat.age = 3
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}" )
-    dicodingCat.eat()
-    dicodingCat.sleep()
+    //ubah data variabel class
+    hewan.name = "kucing"
+    hewan.weight = 6.0
+    hewan.age = 3
+    println("Nama: ${hewan.name}, Berat: ${hewan.weight}, Umur: ${hewan.age}, mamalia: ${hewan.isMamalia
+    }" )
+    hewan.eat()
+    hewan.sleep()
 }

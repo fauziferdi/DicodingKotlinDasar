@@ -1,16 +1,17 @@
 package com.example.dicodingkotlindasar.classKotlin
 
-class Animal() {
-    var name: String = "Kucing"
-    var weight: Double = 3.2
+class Animal(){
+    var name: String = "Anjing"
+    var weight: Double = 5.2
     var age: Int = 2
-    var isMammal: Boolean = true
+    var isMamalia: Boolean = true
+
 
     fun eat(){
-        println("$name makan!")
+        println("$name sedang Makan")
     }
 
-    fun sleep() {
-        println("$name tidur!")
+    fun sleep(){
+        println("$name sedang Tidur")
     }
 }
