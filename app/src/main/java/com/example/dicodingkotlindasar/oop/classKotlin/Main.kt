@@ -1,4 +1,4 @@
-package com.example.dicodingkotlindasar.classKotlin
+package com.example.dicodingkotlindasar.oop.classKotlin
 
 fun main(){
     val hewan = Animal()
