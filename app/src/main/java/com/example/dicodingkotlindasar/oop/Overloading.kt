@@ -1,4 +1,4 @@
-package com.example.dicodingkotlindasar.oop.properties
+package com.example.dicodingkotlindasar.oop
 
 // overloading
 
